@@ -191,23 +191,7 @@ namespace QuanLyChamCong
             frm_QLTinhLuong_Load(null, null);
         }
 
-        private void dgv_TinhLuong_SelectionChanged(object sender, MouseEventArgs e)
-        {
-            if (dgv_TinhLuong.CurrentRow != null)
-            {
-                txt_MaPhieu.Text = dgv_TinhLuong.CurrentRow.Cells[0].Value.ToString();
-                txt_MaNV.Text = dgv_TinhLuong.CurrentRow.Cells[1].Value.ToString();
-                txt_TenNV.Text = dgv_TinhLuong.CurrentRow.Cells[2].Value.ToString();
-                txt_SoNC.Text = dgv_TinhLuong.CurrentRow.Cells[8].Value.ToString();
-                txt_HeSoLuong.Text = dgv_TinhLuong.CurrentRow.Cells[4].Value.ToString();
-                txt_HeSoChucVu.Text = dgv_TinhLuong.CurrentRow.Cells[6].Value.ToString();
-                txt_LuongCoBan.Text = dgv_TinhLuong.CurrentRow.Cells[7].Value.ToString();
-                txt_SoGioTangCa.Text = dgv_TinhLuong.CurrentRow.Cells[9].Value.ToString();
-                txt_SoGioTre.Text = dgv_TinhLuong.CurrentRow.Cells[10].Value.ToString();
-                txt_ThanhTien.Text = ((double)dgv_TinhLuong.CurrentRow.Cells[11].Value).ToString("N0");
 
-            }
-        }
 
        
 

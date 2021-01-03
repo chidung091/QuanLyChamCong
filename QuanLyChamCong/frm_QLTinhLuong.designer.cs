@@ -310,6 +310,7 @@
             // txt_SoGioTangCa
             // 
             this.txt_SoGioTangCa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_SoGioTangCa.Enabled = false;
             this.txt_SoGioTangCa.Location = new System.Drawing.Point(386, 31);
             this.txt_SoGioTangCa.Margin = new System.Windows.Forms.Padding(1);
             this.txt_SoGioTangCa.Name = "txt_SoGioTangCa";
@@ -341,6 +342,7 @@
             // txt_LuongCoBan
             // 
             this.txt_LuongCoBan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_LuongCoBan.Enabled = false;
             this.txt_LuongCoBan.Location = new System.Drawing.Point(386, 1);
             this.txt_LuongCoBan.Margin = new System.Windows.Forms.Padding(1);
             this.txt_LuongCoBan.Name = "txt_LuongCoBan";
@@ -412,7 +414,6 @@
             this.dgv_TinhLuong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_TinhLuong.Size = new System.Drawing.Size(559, 182);
             this.dgv_TinhLuong.TabIndex = 20;
-            this.dgv_TinhLuong.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_TinhLuong_SelectionChanged);
             // 
             // Column14
             // 
@@ -525,6 +526,7 @@
             // txt_ThanhTien
             // 
             this.txt_ThanhTien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_ThanhTien.Enabled = false;
             this.txt_ThanhTien.Location = new System.Drawing.Point(386, 121);
             this.txt_ThanhTien.Margin = new System.Windows.Forms.Padding(1);
             this.txt_ThanhTien.Name = "txt_ThanhTien";
@@ -544,6 +546,7 @@
             // txt_SoGioTre
             // 
             this.txt_SoGioTre.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_SoGioTre.Enabled = false;
             this.txt_SoGioTre.Location = new System.Drawing.Point(386, 91);
             this.txt_SoGioTre.Margin = new System.Windows.Forms.Padding(1);
             this.txt_SoGioTre.Name = "txt_SoGioTre";
@@ -553,6 +556,7 @@
             // txt_HeSoChucVu
             // 
             this.txt_HeSoChucVu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_HeSoChucVu.Enabled = false;
             this.txt_HeSoChucVu.Location = new System.Drawing.Point(386, 61);
             this.txt_HeSoChucVu.Margin = new System.Windows.Forms.Padding(1);
             this.txt_HeSoChucVu.Name = "txt_HeSoChucVu";
@@ -573,6 +577,7 @@
             // txt_SoNC
             // 
             this.txt_SoNC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_SoNC.Enabled = false;
             this.txt_SoNC.Location = new System.Drawing.Point(146, 121);
             this.txt_SoNC.Margin = new System.Windows.Forms.Padding(1);
             this.txt_SoNC.Name = "txt_SoNC";
@@ -593,6 +598,7 @@
             // txt_HeSoLuong
             // 
             this.txt_HeSoLuong.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_HeSoLuong.Enabled = false;
             this.txt_HeSoLuong.Location = new System.Drawing.Point(146, 91);
             this.txt_HeSoLuong.Margin = new System.Windows.Forms.Padding(1);
             this.txt_HeSoLuong.Name = "txt_HeSoLuong";
@@ -613,6 +619,7 @@
             // txt_TenNV
             // 
             this.txt_TenNV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_TenNV.Enabled = false;
             this.txt_TenNV.Location = new System.Drawing.Point(146, 61);
             this.txt_TenNV.Margin = new System.Windows.Forms.Padding(1);
             this.txt_TenNV.Name = "txt_TenNV";
@@ -633,6 +640,7 @@
             // txt_MaNV
             // 
             this.txt_MaNV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_MaNV.Enabled = false;
             this.txt_MaNV.Location = new System.Drawing.Point(146, 31);
             this.txt_MaNV.Margin = new System.Windows.Forms.Padding(1);
             this.txt_MaNV.Name = "txt_MaNV";
@@ -653,6 +661,7 @@
             // txt_MaPhieu
             // 
             this.txt_MaPhieu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_MaPhieu.Enabled = false;
             this.txt_MaPhieu.Location = new System.Drawing.Point(146, 1);
             this.txt_MaPhieu.Margin = new System.Windows.Forms.Padding(1);
             this.txt_MaPhieu.Name = "txt_MaPhieu";
@@ -686,7 +695,7 @@
             this.btn_Thoat.Image = global::QuanLyChamCong.Properties.Resources.tsbClose;
             this.btn_Thoat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Thoat.Name = "btn_Thoat";
-            this.btn_Thoat.Size = new System.Drawing.Size(58, 22);
+            this.btn_Thoat.Size = new System.Drawing.Size(57, 22);
             this.btn_Thoat.Text = "Thoát";
             this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click_1);
             // 
@@ -695,7 +704,7 @@
             this.btn_TinhLuong.Image = global::QuanLyChamCong.Properties.Resources.add;
             this.btn_TinhLuong.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_TinhLuong.Name = "btn_TinhLuong";
-            this.btn_TinhLuong.Size = new System.Drawing.Size(88, 22);
+            this.btn_TinhLuong.Size = new System.Drawing.Size(87, 22);
             this.btn_TinhLuong.Text = "Tính Lương";
             this.btn_TinhLuong.Click += new System.EventHandler(this.btn_TinhLuong_Click);
             // 
